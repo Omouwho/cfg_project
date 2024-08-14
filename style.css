@@ -1,6 +1,7 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f8f9fa;
+    margin-bottom: 60px; /* Add space at the bottom for the fixed footer */
 }
 
 h1, h2, h3 {
@@ -14,6 +15,13 @@ p {
 .navbar-brand {
     font-weight: bold;
 }
+
+.navbar-brand img {
+    width: 40px; 
+    height: auto; 
+    margin-top: 10px;
+}
+
 
 .jumbotron {
     background-color: #ffffff;
@@ -32,7 +40,20 @@ img {
 }
 
 #signUpButton:hover {
-    background-color: #28a745; /* Darker green on hover */
+    background-color: #e9f3eb; /* Darker green on hover */
+    color: black;
     transform: scale(1.05); /* Slightly increase the size */
 }
 
+/* Footer styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    z-index: 1000; /* Ensure footer is above other content */
+}
