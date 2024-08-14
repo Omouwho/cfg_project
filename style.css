@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3 {
+    color: #343a40;
+}
+
+p {
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Add hover effect to the Sign Up button */
+#signUpButton {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#signUpButton:hover {
+    background-color: #28a745; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly increase the size */
+}
+
