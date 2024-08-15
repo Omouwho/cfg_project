@@ -14,7 +14,7 @@ html, body {
     background-image: url('images/banner.jpg'); 
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,9 +23,9 @@ html, body {
     padding-top: 100px;
 }
 
-/* The main content should take up the available space */
+
 .main-content {
-    flex: 1; /* This makes the main content area grow and take up available space */
+    flex: 1; 
 }
 
 /* Coach Section */
