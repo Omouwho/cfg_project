@@ -42,7 +42,7 @@ img {
 #signUpButton:hover {
     background-color: #e9f3eb; /* Darker green on hover */
     color: black;
-    transform: scale(1.05); /* Slightly increase the size */
+  
 }
 
 /* Footer styling */

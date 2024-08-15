@@ -15,10 +15,6 @@
       <link rel="shortcut icon"
         href="https://www.favicon.cc/logo3d/730344.png"
         type="image/icon">
-      <!-- bootstrap js -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
         <!-- custom styling -->
         <link rel="stylesheet" href="style.css">
     </head>
@@ -28,52 +24,70 @@
     <!-- Navbar Section-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand d-flex align-items-center" href="/cfg_project/index.html">
-                <img src="images/logo.png" alt="CFG Fitness Logo" width="60" height="60" class="d-inline-block align-text-top me-2">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/logo.png" alt="CFG Fitness Logo" width="50" height="50" class="d-inline-block align-text-top me-2">
                 CFG Fitness
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link home active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" href="/cfg_project/index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link about" href="about.html">About</a>
+                        <a class="nav-link" href="/cfg_project/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Class</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lifestyle</a>
                     </li>
                 </ul>
+            </div>
+            <div class="d-flex align-items-center">
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="btn btn-outline-light" id="signUpButton">Sign Up</a>
             </div>
         </div>
     </nav>
     
-    
-
 
     <div class="container mt-5">
         <div class="jumbotron text-center">
-            <img src="images/banner.jpg" alt="Fitness Banner" class="img-fluid">
             <h1 class="display-4 mt-4">Welcome to CFG Fitness Center</h1>
             <p class="lead">Your journey to a healthier, fitter you starts here!</p>
-            <button class="btn btn-dark mt-3" id="signUpButton">Sign Up</button>
+            <img src="images/banner.jpg" alt="Fitness Banner" class="img-fluid">
         </div>
     </div>
     
-
+    <!-- Coach Section -->
     <div class="container mt-5 text-center">
         <h2>Meet Our Coach</h2>
         <img src="images/coach.jpg" alt="Coach" class="img-fluid rounded-circle" style="width: 200px;">
         <p class="mt-3">Our expert coach will guide you through your fitness journey, offering personalized advice and motivation.</p>
     </div>
 
-    <footer class="bg-dark text-center text-white py-3">
-        <p class="mb-0">Coded by Esther Egba for the CFG Intro to Web Dev Project</p>
+    <!-- Footer Section -->
+    <footer class="bg-dark text-center text-white py-1">
+        <div class="container">
+            <p>&copy; Coded by Esther Egba for the CFG Intro to Web Dev Project 2024.</p>
+        </div>
     </footer>
     
-
+    <!-- Custom JS  -->
     <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
 </html>
 
